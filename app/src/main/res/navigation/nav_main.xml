@@ -17,6 +17,7 @@
             android:id="@+id/action_firstFragment_to_thirdFragment2"
             app:destination="@id/thirdFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.example.navigationcomponent101.SecondFragment"
@@ -26,9 +27,5 @@
         android:id="@+id/thirdFragment"
         android:name="com.example.navigationcomponent101.ThirdFragment"
         android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
-        <argument
-            android:name="Dummy"
-            app:argType="string" />
-    </fragment>
+        tools:layout="@layout/fragment_third" />
 </navigation>

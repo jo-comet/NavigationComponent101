@@ -27,9 +27,10 @@ class FirstFragment : Fragment() {
         secondButton.setOnClickListener {
             it.findNavController()
                 .navigate(R.id.action_firstFragment_to_secondFragment)
+
         }
 
-        //go to thrid fragment
+        //go to third fragment
         thirdButton.setOnClickListener {
             it.findNavController()
                 .navigate(R.id.action_firstFragment_to_thirdFragment2)
